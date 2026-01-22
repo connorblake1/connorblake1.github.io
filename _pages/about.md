@@ -32,4 +32,4 @@ Currently, I work with [Prof. Liang Jiang](https://jianggroup.uchicago.edu/) at 
 
 Previously, I interned at [Atlantic Quantum](https://www.atlanticquantum.com/) (now part of Google Quantum AI) working on quantum circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
 
-I am a Barry Goldwater Scholar (2025) and Stamps Scholar (2024).
+I am a Stamps Scholar (2024).
