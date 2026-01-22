@@ -42,12 +42,12 @@ $$
 
 These operators have eigenvalue $$+1$$ on valid codewords. If a bit-flip occurs on qubit $$i$$, the syndrome (measurement outcomes of $$S_1, S_2$$) uniquely identifies which qubit was affected:
 
-| Error | $$S_1$$ | $$S_2$$ |
-|-------|---------|---------|
-| None  | +1      | +1      |
-| $$X_1$$ | -1    | +1      |
-| $$X_2$$ | -1    | -1      |
-| $$X_3$$ | +1    | -1      |
+| Error   | $$S_1$$ | $$S_2$$ |
+| ------- | ------- | ------- |
+| None    | +1      | +1      |
+| $$X_1$$ | -1      | +1      |
+| $$X_2$$ | -1      | -1      |
+| $$X_3$$ | +1      | -1      |
 
 ## The Stabilizer Formalism
 
