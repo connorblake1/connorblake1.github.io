@@ -3,6 +3,4 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: cjblake@uchicago.edu # your email address
 github_username: connorblake1 # your GitHub username
-substack:
-  username: bosoncutter
-# rss_icon: true # comment this line to hide the RSS icon
+substack_username: bosoncutter
