@@ -391,11 +391,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-published-in-npj-computational-materials-a-self-driving-physical-vapor-deposition-system-making-sample-specific-decisions-on-the-fly",
-          title: 'Paper published in npj Computational Materials: A self-driving physical vapor deposition system making...',
-          description: "",
-          section: "News",},{id: "news-started-summer-research-at-mit-with-prof-jörn-dunkel-on-variational-diffusion-models-and-learned-coarse-grained-dynamics",
+            },},{id: "news-started-summer-research-at-mit-with-prof-jörn-dunkel-on-variational-diffusion-models-and-learned-coarse-grained-dynamics",
           title: 'Started summer research at MIT with Prof. Jörn Dunkel on variational diffusion models...',
+          description: "",
+          section: "News",},{id: "news-paper-published-in-npj-computational-materials-a-self-driving-physical-vapor-deposition-system-making-sample-specific-decisions-on-the-fly",
+          title: 'Paper published in npj Computational Materials: A self-driving physical vapor deposition system making...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
