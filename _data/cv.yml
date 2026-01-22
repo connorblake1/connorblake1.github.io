@@ -1,0 +1,105 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Connor Blake
+    - name: Email
+      value: cjblake@uchicago.edu
+    - name: GitHub
+      value: github.com/connorblake1
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. Quantum Engineering (minor CS)
+      institution: University of Chicago
+      year: 2022 - 2026
+      description:
+        - "GPA: 3.93"
+        - title: Selected Coursework
+          contents:
+            - "PhD-level Physics/Chemistry: Adv. Electrodynamics I & II, Adv. Statistical Mechanics, Semiconductor Physics, Soft Condensed Matter Physics, Machine Learning in Chemistry"
+            - "PhD-level Quantum: Quantum Molecular & Materials Modeling, Adv. Quantum Engineering, Adv. Quantum Information and Computation"
+            - "CS & Math: Systems Programming I & II, Computer Architecture, Honors Discrete Math, Probability Models, Applied Stochastic Processes, Math for Quantum Mechanics"
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Researcher
+      institution: Prof. Liang Jiang's Group, UChicago PME
+      year: Jun 2024 - present
+      description:
+        - Developing quantum optics theory and simulations (JAX) for improved hybrid qubit-oscillator control
+        - Developed pulse-level optimal-control tools for open quantum systems in JAX
+
+    - title: Undergraduate Researcher
+      institution: Prof. Jörn Dunkel's Group, MIT Mathematics
+      year: Jun 2025 - present
+      description:
+        - Developing variationally optimal scheme for training and sampling score-matching diffusion models
+        - Developing tools to learn coarse-grained Cahn-Hilliard dynamics from phase-separating MD simulations
+
+    - title: Quantum Circuit Design Intern
+      institution: Atlantic Quantum (acquired by Google Quantum AI)
+      year: Jun 2024 - Aug 2024
+      description:
+        - Achieved >10x speed-up in Lindblad cQED readout and gate simulations using JAX, multiprocessing
+        - Automated Layout-vs-Schematic and Design Rules Checking for superconducting quantum circuit layout workflow
+        - Contributed 9,000+ lines of code (Python, Ruby) during 5 sprints
+
+    - title: Undergraduate Researcher
+      institution: Prof. Shuolong Yang's Group, UChicago PME
+      year: Nov 2022 - Nov 2024
+      description:
+        - Wrote & maintained 7,000+ lines of MATLAB, C, Python to automate thin-film deposition with Bayesian ML
+        - Designed and machined precision optical and thermal components
+        - Design is patent-pending, paper published in npj Computational Materials
+
+    - title: Computational Physics Intern
+      institution: Argonne National Laboratory, Center for Nanoscale Materials
+      year: Jul 2023 - Sep 2023
+      description:
+        - Developed tight-binding model and simulations for a quasicrystal enabling new hierarchical analysis
+        - Simulated adsorption of CO on copper using QuantumESPRESSO
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Barry Goldwater Scholar (441 selected nationally from 5,000+ applicants)
+    - year: 2024
+      items:
+        - Stamps Scholar (365 selected nationally from 500,000+ applicants)
+        - Robert Maynard Hutchins Scholar (top 10% GPA, UChicago)
+    - year: 2022
+      items:
+        - University Scholar ($100k merit scholarship, UChicago)
+        - Provost Scholar (research scholarship, UChicago)
+
+- title: Leadership
+  type: time_table
+  contents:
+    - title: VP of EE; Team Lead, Autonomous Robotics
+      institution: UChicago Robotics
+      year: Oct 2022 - May 2024
+      description:
+        - Designed and taught 12-week robotics class to 15 Chicago Public Schools students
+        - Designed PCBs and sensor-fusion algorithms for autonomous navigation
+        - Led autonomous robotics team at the 2024 UCLA All-American Micromouse Competition
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python, C, MATLAB, JAX, Git, Linux, HPC
+    - title: Machine Learning
+      items:
+        - Bayesian ML, diffusion models
+    - title: Quantum
+      items:
+        - Computational quantum optics, quantum simulation, quantum information theory
+    - title: Engineering Tools
+      items:
+        - Fusion360, KLayout, GDSFactory, KiCad, manual machining, basic electronics, microcontrollers
