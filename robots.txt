@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://connorblake1.github.io/sitemap.xml
