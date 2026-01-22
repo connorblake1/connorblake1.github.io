@@ -28,8 +28,8 @@ latest_posts:
 
 I am an undergraduate at the University of Chicago pursuing a B.S. in Quantum Engineering with a minor in Computer Science (expected June 2026). My research interests span quantum computing, quantum optics, and the intersection of machine learning with physics.
 
-Currently, I work with [Prof. Liang Jiang](https://jianggroup.uchicago.edu/) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems, and with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on variational methods for diffusion models and learning coarse-grained dynamics.
+Currently, I work with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems, and with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on variational methods for diffusion models and learning coarse-grained dynamics.
 
-Previously, I interned at [Atlantic Quantum](https://www.atlanticquantum.com/) (now part of Google Quantum AI) working on quantum circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
+Previously, I interned at [Google Quantum AI](https://quantumai.google/) (formerly Atlantic Quantum) working on quantum circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
 
 I am a Barry Goldwater Scholar (2025) and Stamps Scholar (2024).
