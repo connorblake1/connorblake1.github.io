@@ -7,6 +7,7 @@ tags: quantum math
 categories: physics
 related_posts: false
 featured: true
+published: false
 ---
 
 Quantum computers are notoriously fragile. Unlike classical bits which can be easily copied and verified, quantum states are subject to the no-cloning theorem and collapse upon measurement. This makes protecting quantum information fundamentally different from classical error correction. In this post, I'll give a brief overview of how quantum error correction works.
