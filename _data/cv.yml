@@ -34,10 +34,10 @@
 
     - title: Undergraduate Researcher
       institution: Prof. Jörn Dunkel's Group, MIT Mathematics
-      year: Jun 2025 - present
+      year: Jun 2025 - Sep 2025
       description:
-        - Developing variationally optimal scheme for training and sampling score-matching diffusion models
-        - Developing tools to learn coarse-grained Cahn-Hilliard dynamics from phase-separating MD simulations
+        - Developed variationally optimal scheme for training and sampling score-matching diffusion models
+        - Developed tools to learn coarse-grained Cahn-Hilliard dynamics from phase-separating MD simulations
 
     - title: Quantum Circuit Design Intern
       institution: Atlantic Quantum (acquired by Google Quantum AI)

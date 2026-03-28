@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Quantum Engineering @ <a href='https://pme.uchicago.edu/'>UChicago PME</a>
+subtitle: Incoming PhD Student @ <a href='https://www.eecs.mit.edu/'>MIT EECS</a>
 
 profile:
   align: right
@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate at the University of Chicago pursuing a B.S. in Quantum Engineering with a minor in Computer Science (expected June 2026). My research interests span quantum computing, quantum optics, and the intersection of machine learning with physics.
+I am an incoming PhD student at [MIT EECS](https://www.eecs.mit.edu/) and an undergraduate at the University of Chicago pursuing a B.S. in Quantum Engineering with a minor in Computer Science (expected June 2026). My research interests span quantum computing, quantum optics, and the intersection of machine learning with physics.
 
-Currently, I work with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems, and with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on variational methods for diffusion models and learning coarse-grained dynamics.
+Currently, I work with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems. Previously, I worked with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on variational methods for diffusion models and learning coarse-grained dynamics.
 
-Previously, I interned at [Google Quantum AI](https://quantumai.google/) (formerly Atlantic Quantum) working on quantum circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
+I interned at [Google Quantum AI](https://quantumai.google/) (formerly Atlantic Quantum) working on quantum circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
 
 I am a Barry Goldwater Scholar (2025) and Stamps Scholar (2024).
