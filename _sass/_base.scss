@@ -455,6 +455,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Swap the (black) Substack logo for its white variant in dark mode
+html[data-theme="dark"] img[src$="substack.png"] {
+  content: url("/assets/img/substack-dark.png");
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

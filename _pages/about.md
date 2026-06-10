@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming PhD student at [MIT EECS](https://www.eecs.mit.edu/) and an undergraduate at the University of Chicago pursuing a B.S. in Quantum Engineering with a minor in Computer Science (expected June 2026). My research interests span quantum computing, quantum optics, and the intersection of machine learning with physics.
+I am an incoming PhD student at [MIT EECS](https://www.eecs.mit.edu/) and a recent graduate of the University of Chicago, where I earned a B.S. in Quantum Engineering with a minor in Computer Science (June 2026). My research interests span quantum computing, quantum optics, and the intersection of machine learning with physics.
 
 Currently, I work with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems. Previously, I worked with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on variational methods for diffusion models and learning coarse-grained dynamics.
 
