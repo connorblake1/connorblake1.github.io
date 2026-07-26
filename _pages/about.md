@@ -33,3 +33,5 @@ I've previously worked with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty
 I interned at Atlantic Quantum (later acquired by [Google](https://quantumai.google/)) working on circuit simulation and design automation. I also conducted research with [Prof. Shuolong Yang](https://yanglab.uchicago.edu/) on machine learning-aided thin-film deposition systems, and at Argonne National Laboratory on computational physics of quasicrystals.
 
 I am a Barry Goldwater Scholar (2025) and Stamps Scholar (2024).
+
+I also write on [Substack](https://bosoncutter.substack.com/).
