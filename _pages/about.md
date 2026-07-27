@@ -36,4 +36,4 @@ I am a [Barry Goldwater Scholar](https://news.uchicago.edu/story/four-uchicago-c
 
 I also write on [Substack](https://bosoncutter.substack.com/).
 
-You can contact me at cjblake @ {my grad school 3 letter abbreviation} .edu
+You can contact me at cjblake@mit.edu
