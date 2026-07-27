@@ -35,3 +35,5 @@ I interned at Atlantic Quantum (later acquired by [Google](https://quantumai.goo
 I am a [Barry Goldwater Scholar](https://news.uchicago.edu/story/four-uchicago-college-students-earn-2025-goldwater-scholarships) (2025) and Stamps Scholar (2024).
 
 I also write on [Substack](https://bosoncutter.substack.com/).
+
+You can contact me at cjblake @ {my grad school 3 letter abbreviation} .edu
