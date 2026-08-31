@@ -11,6 +11,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. Student
+      institution: Massachusetts Institute of Technology
+      department: Engineering Quantum Systems (EQuS)
+      year: 2026 - present
+
     - title: B.S. Quantum Engineering (minor CS)
       institution: University of Chicago
       year: 2022 - 2026

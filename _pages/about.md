@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming PhD Student @ <a href='https://www.eecs.mit.edu/'>MIT EECS</a>
+subtitle: PhD Student @ <a href='https://equs.mit.edu/'>MIT EQuS</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>University of Chicago</p>
-    <p>Chicago, IL</p>
+    <p>Massachusetts Institute of Technology</p>
+    <p>Cambridge, MA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming PhD student at [MIT EECS](https://www.eecs.mit.edu/) and a recent graduate of the University of Chicago, where I earned a B.S. in Quantum Engineering with a minor in Computer Science (June 2026). My research interests span autonomous labs, materials science, quantum control, ML, and information theory.
+I am currently a PhD student at MIT in [EQuS](https://equs.mit.edu/) and a recent graduate of the University of Chicago, where I earned a B.S. in Quantum Engineering with a minor in Computer Science (June 2026). My research interests span autonomous labs, materials science, quantum control, ML, and information theory.
 
 I've previously worked with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems. Previously, I worked with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on diffusion models and learning coarse-grained dynamics.
 
