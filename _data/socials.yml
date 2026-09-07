@@ -2,7 +2,3 @@
 # the socials will be displayed in the order they are defined here
 email: cjblake@mit.edu
 github_username: connorblake1
-substack:
-  url: https://bosoncutter.substack.com
-  logo: assets/img/substack.png
-  title: Substack
