@@ -107,13 +107,6 @@ ninja.data = [{
           window.open("https://github.com/connorblake1", "_blank");
         },
       },{
-        id: 'social-substack',
-        title: 'Substack',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bosoncutter.substack.com", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
