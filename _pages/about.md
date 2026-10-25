@@ -2,11 +2,13 @@
 layout: about
 title: about
 permalink: /
+description: Connor Blake is an MIT PhD student in Engineering Quantum Systems (EQuS) researching quantum control, autonomous labs, materials science, and machine learning.
 subtitle: PhD Student @ <a href='https://equs.mit.edu/'>MIT EQuS</a>
 
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Connor Blake at MIT
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Massachusetts Institute of Technology</p>
@@ -26,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a PhD student at MIT in [EQuS](https://equs.mit.edu/) and a recent graduate of the University of Chicago, where I earned a B.S. in Quantum Engineering with a minor in Computer Science (June 2026). My research interests span autonomous labs, materials science, quantum control, ML, and information theory.
+I’m Connor Blake, a PhD student at MIT in [Engineering Quantum Systems (EQuS)](https://equs.mit.edu/) and a recent graduate of the University of Chicago, where I earned a B.S. in Quantum Engineering with a minor in Computer Science (June 2026). My research interests span autonomous labs, materials science, quantum control, machine learning, and information theory.
 
 I've previously worked with [Prof. Liang Jiang](https://pme.uchicago.edu/faculty/liang-jiang) at UChicago PME on quantum optics theory and optimal control for hybrid qubit-oscillator systems. Previously, I worked with [Prof. Jörn Dunkel](https://math.mit.edu/~dunkel/) at MIT on diffusion models and learning coarse-grained dynamics.
 

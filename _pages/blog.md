@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
+description: Writing by Connor Blake on quantum engineering, computational physics, and research.
 nav: true
 nav_order: 1
 pagination:

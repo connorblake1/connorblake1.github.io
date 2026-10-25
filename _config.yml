@@ -9,12 +9,11 @@ last_name: Blake
 contact_note: >
   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  MIT PhD student in EQuS and University of Chicago Quantum Engineering graduate. Research in autonomous labs, materials science, quantum control, machine learning, and information theory.
+  Connor Blake is an MIT PhD student in Engineering Quantum Systems (EQuS) researching quantum control, autonomous labs, materials science, and machine learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -70,9 +69,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpg # The site-wide Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -229,6 +228,26 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # Theme sample collections should not be advertised as Connor's work.
+  # Remove these defaults when replacing the samples with real entries.
+  - scope:
+      path: ""
+      type: books
+    values:
+      sitemap: false
+      robots: noindex, follow
+  - scope:
+      path: ""
+      type: projects
+    values:
+      sitemap: false
+      robots: noindex, follow
+  - scope:
+      path: ""
+      type: teachings
+    values:
+      sitemap: false
+      robots: noindex, follow
 
 sass:
   style: compressed
@@ -261,7 +280,7 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # the only book entry is theme demo content
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -348,7 +367,7 @@ enable_publication_thumbnails: true
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
+  rel: external noopener
   target: _blank
   exclude:
 

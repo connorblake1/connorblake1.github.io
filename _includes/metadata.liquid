@@ -1,9 +1,9 @@
-{% if site.enable_google_verification or site.enable_bing_verification %}
+{% if site.google_site_verification or site.bing_site_verification %}
   <!-- Website verification -->
-  {% if site.enable_google_verification %}
+  {% if site.google_site_verification %}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
   {% endif %}
-  {% if site.enable_bing_verification %}
+  {% if site.bing_site_verification %}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
   {% endif %}
   <!--
@@ -13,7 +13,6 @@
   -->
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 {% endif %}
-
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 
 <!-- Standard metadata -->
@@ -39,9 +38,31 @@
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-{% if page.keywords or site.keywords %}
-  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}">
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
+{% if page.url == '/' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ '/' | absolute_url | append: '#person' | jsonify }},
+      "name": {{ author_name | strip | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "description": {{ site.description | strip | jsonify }},
+      "image": {{ site.og_image | absolute_url | jsonify }},
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Chicago"
+      },
+      "sameAs": [{{ site.data.socials.github_username | prepend: 'https://github.com/' | jsonify }}]
+    }
+  </script>
 {% endif %}
 
 {% assign is_blog_post = false %}
@@ -55,20 +76,20 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="{% if page.url != '/' and page.title and page.title != 'blank' %}{{ page.title | escape }} | {% endif %}{{ title | escape }}">
+  <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}">
   {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.url != '/' and page.title and page.title != 'blank' %}{{ page.title | escape }} | {% endif %}{{ title | escape }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}">
   {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">

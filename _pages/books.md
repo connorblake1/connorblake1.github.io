@@ -2,6 +2,8 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
+sitemap: false
+robots: noindex, follow
 nav: false
 collection: books
 ---

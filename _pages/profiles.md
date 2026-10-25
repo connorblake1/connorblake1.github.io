@@ -1,6 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
+sitemap: false
+robots: noindex, follow
 title: people
 description: members of the lab or group
 nav: false

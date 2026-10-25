@@ -2,7 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+sitemap: false
+robots: noindex, follow
+description: Project examples from the site theme.
 nav: false
 nav_order: 3
 display_categories: [work, fun]
